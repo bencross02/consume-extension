@@ -1,8 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Consume",
-  "version": "1.19",
-  "description": "Replaces purchase-related labels with a random uppercase slogan, preserves styling, tints elements light gray, extra-bold text, strips borders/shadows, and overrides Amazon .a-button-primary styling.",
+  "version": "1.22",
+  "description": "Inspired by the film They Live (1988), this extension replaces Buy Now buttons with the dystopian billboard slogans from the film.",
+  "icons": {
+    "16": "icons/consume-icon-16.png",
+    "48": "icons/consume-icon-48.png",
+    "128": "icons/consume-icon-128.png"
+  },
+  "host_permissions": ["<all_urls>"],
   "permissions": ["scripting"],
   "content_scripts": [
     {
