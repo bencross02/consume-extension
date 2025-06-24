@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Consume",
-  "version": "1.23",
-  "description": "Automatically replaces purchase-related button labels with random uppercase slogans and applies consistent light-gray, extra-bold styling across all sites.",
+  "version": "1.24",
+  "description": "Replaces purchase button labels with random uppercase slogans and applies consistent light-gray, bold styling.",
   "icons": {
     "16": "icons/consume-icon-16.png",
     "48": "icons/consume-icon-48.png",
